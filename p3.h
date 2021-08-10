@@ -13,7 +13,27 @@ using namespace std;
 
 
 void f3_c(){
+    int i;
+    int sum = 0;
+    char ch;
 
+    printf("请输入一串整数和任意数目的空格\n");
+
+    while (scanf("%d", &i) == 1){
+        sum += i;
+        while ((ch = getchar()) == ' ');    // 屏蔽空格
+        if (ch == '\n'){
+            break;
+        }
+        // C 库函数 int ungetc(int char, FILE *stream)
+        // 把字符 char（一个无符号字符）推入到指定的流 stream 中，
+        // 以便它是下一个被读取到的字符。
+
+        // 将变量ch中 存放的字符 退回给stdin输入流
+        ungetc(ch, stdin);
+    }
+    printf("求和结果是：%d\n", sum);
+    system("pause");
 }
 
 

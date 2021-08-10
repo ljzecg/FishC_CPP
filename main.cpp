@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "p2.h"
 #include "p3.h"
 #include "p4.h"
 #include "p5.h"
@@ -10,7 +11,7 @@
 
 int main(int argc, char *argv[]) {
 
-
+//    f2();
 //    f3();
 //    f4(argc, argv);
 //    f5(argc, argv);
