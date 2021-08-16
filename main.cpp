@@ -16,6 +16,8 @@
 #include "p15.h"
 #include "p16.h"
 #include "p17.h"
+#include "p18.h"
+#include "p19.h"
 
 
 
@@ -36,7 +38,9 @@ int main(int argc, char *argv[]) {
 //    f14();
 //    f15();
 //    f16();
-    f17();
+//    f17();
+//    f18();
+    f19();
 
 
     return 0;
