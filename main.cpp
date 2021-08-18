@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 #include "p2.h"
 #include "p3.h"
 #include "p4.h"
@@ -18,6 +19,8 @@
 #include "p17.h"
 #include "p18.h"
 #include "p19.h"
+#include "p20.h"
+#include "p21.h"
 
 
 
@@ -40,7 +43,9 @@ int main(int argc, char *argv[]) {
 //    f16();
 //    f17();
 //    f18();
-    f19();
+//    f19();
+//    f20();
+    f21();
 
 
     return 0;

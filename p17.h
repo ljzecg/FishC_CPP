@@ -19,7 +19,7 @@ public:
 };
 
 Human_p17::Human_p17(char fishc){
-    // this æŒ‡é’ˆ é˜²æ­¢äºŒä¹‰æ€§
+    // this Ö¸Õë ·ÀÖ¹¶þÒåÐÔ
     this->fishc = fishc;
 };
 
@@ -37,13 +37,13 @@ public:
     void drool();
 };
 
-// ç»§æ‰¿äºŽ Animal_p17
+// ¼Ì³ÐÓÚ Animal_p17
 class Pig_p17: public Animal_p17{
 public:
     void climb();
 };
 
-// ç»§æ‰¿äºŽ Animal_p17
+// ¼Ì³ÐÓÚ Animal_p17
 class Turtle_p17: public Animal_p17{
 public:
     void swim();
