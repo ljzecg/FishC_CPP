@@ -32,14 +32,14 @@ private:
 };
 
 
-// 做两件事！分配内存，初始化为0
+// 做两件事！分配内存；初始化为0
 int Pet_p23::count = 0;
 
 Pet_p23::Pet_p23(string theName) {
     name = theName;
     count++;
-
-    cout << "创建了一个宠物，名字是：" << name << endl;
+    cout << "Pet构造函数，创建了一个宠物，名字是：" << name << endl;
+    cout << "Pet构造函数的this指针：" << this << endl;
 }
 
 Pet_p23::~Pet_p23() {
@@ -61,8 +61,7 @@ public:
 
 Dog_p23::Dog_p23(string theName) : Pet_p23(theName){
     cout << "小狗的构造函数：小狗名字：" << name << endl;
-
-    cout << "this指针:" << this << endl;
+    cout << "小狗，this指针:" << this << endl;
 
 }
 
@@ -74,6 +73,7 @@ public:
 
 Cat_p23::Cat_p23(string theName) : Pet_p23(theName){
     cout << "小猫的构造函数：小猫名字：" << name << endl;
+    cout << "小猫，this指针:" << this << endl;
 }
 
 
@@ -81,8 +81,11 @@ Cat_p23::Cat_p23(string theName) : Pet_p23(theName){
 void f23_e1(){
 
     Dog_p23 d("旺财");
+    cout << "dog对象的指针："<< &d << endl;
 
 
+    Cat_p23 c("咪咪");
+    cout << "cat对象的指针：" << &c << endl;
 
 }
 

@@ -23,6 +23,13 @@
 #include "p21.h"
 #include "p22.h"
 #include "p23.h"
+#include "p24.h"
+#include "p25.h"
+#include "p26.h"
+#include "p27.h"
+#include "p28.h"
+#include "p29.h"
+#include "p30.h"
 
 
 
@@ -49,7 +56,14 @@ int main(int argc, char *argv[]) {
 //    f20();
 //    f21();
 //    f22();
-    f23();
+//    f23();
+//    f24();
+//    f25();
+//    f26();
+//    f27();
+//    f28();
+//    f29();
+    f30();
 
 
     return 0;
