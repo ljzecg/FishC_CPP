@@ -31,6 +31,13 @@
 #include "p29.h"
 #include "p30.h"
 
+#include "p32.h"
+#include "p33.h"
+#include "p34.h"
+#include "p35.h"
+#include "p36.h"
+#include "p37.h"
+
 
 
 int main(int argc, char *argv[]) {
@@ -63,7 +70,14 @@ int main(int argc, char *argv[]) {
 //    f27();
 //    f28();
 //    f29();
-    f30();
+//    f30();
+
+//    f32();
+//    f33();
+//    f34();
+//    f35();
+//    f36();
+    f37();
 
 
     return 0;
