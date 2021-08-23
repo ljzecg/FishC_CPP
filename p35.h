@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P35_H
 #define FISHC_CPP_P35_H
 
-#endif //FISHC_CPP_P35_H
 
 #include <iostream>
 
@@ -44,3 +43,4 @@ void f35(){
     f35_e1();
     f35_e2();
 }
+#endif //FISHC_CPP_P35_H

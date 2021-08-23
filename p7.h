@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P7_H
 #define FISHC_CPP_P7_H
 
-#endif //FISHC_CPP_P7_H
 
 
 #include <iostream>
@@ -64,10 +63,12 @@ void p7_e3() {
 
 void f7(){
 
-//    p7_e1();
+    //    p7_e1();
 
-//    p7_e2();
+    //    p7_e2();
 
     p7_e3();
 
 }
+
+#endif //FISHC_CPP_P7_H

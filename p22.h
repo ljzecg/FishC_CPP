@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P22_H
 #define FISHC_CPP_P22_H
 
-#endif //FISHC_CPP_P22_H
 
 #include <iostream>
 #include <string>
@@ -93,3 +92,4 @@ void f22(){
     f22_e1();
 
 }
+#endif //FISHC_CPP_P22_H

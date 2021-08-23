@@ -5,8 +5,6 @@
 #ifndef FISHC_CPP_P2_H
 #define FISHC_CPP_P2_H
 
-#endif //FISHC_CPP_P2_H
-
 #include <iostream>
 
 using namespace std;
@@ -41,8 +39,10 @@ void f2(){
     int length = sizeof(data) / sizeof(data[0]);
     cout << "length of data: " << length << endl;
 
-//    int sum = addArray_array(data, length);
+    //    int sum = addArray_array(data, length);
     int sum = addArray_pointer(data, length);
     cout << "sum of data array: " << sum << endl;
 
 }
+
+#endif //FISHC_CPP_P2_H

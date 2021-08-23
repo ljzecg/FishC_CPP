@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P23_H
 #define FISHC_CPP_P23_H
 
-#endif //FISHC_CPP_P23_H
 
 #include <iostream>
 #include <string>
@@ -89,9 +88,8 @@ void f23_e1(){
 
 }
 
-
-
 void f23(){
     f23_e1();
 
 }
+#endif //FISHC_CPP_P23_H

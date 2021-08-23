@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P19_H
 #define FISHC_CPP_P19_H
 
-#endif //FISHC_CPP_P19_H
 
 #include <iostream>
 #include <string>
@@ -87,8 +86,8 @@ void f19_e1(){
     Pig_p19 pig("小猪");
     Turtle_p19 turtle("小甲鱼");
 
-//    cout << "pig的名字：" << pig.name << endl;
-//    cout << "乌龟名字：" << turtle.name << endl;
+    //    cout << "pig的名字：" << pig.name << endl;
+    //    cout << "乌龟名字：" << turtle.name << endl;
 }
 
 
@@ -96,3 +95,5 @@ void f19(){
     f19_e1();
 
 }
+
+#endif //FISHC_CPP_P19_H

@@ -5,9 +5,6 @@
 #ifndef FISHC_CPP_P11_H
 #define FISHC_CPP_P11_H
 
-#endif //FISHC_CPP_P11_H
-
-
 #include <iostream>
 #include <string>
 
@@ -27,12 +24,12 @@ struct FishOil{
 
 
 void f11_e1(){
-//    // 创建实例
-//    FishOil Jiayu;
-//
-//    Jiayu.name = "小甲鱼";
-//    Jiayu.uid = "fishc_00001";
-//    Jiayu.sex = 'M';
+    //    // 创建实例
+    //    FishOil Jiayu;
+    //
+    //    Jiayu.name = "小甲鱼";
+    //    Jiayu.uid = "fishc_00001";
+    //    Jiayu.sex = 'M';
 
     // 或：
     FishOil Jiayu = {"小甲鱼", "fishc_00001", 'M'};
@@ -50,3 +47,4 @@ void f11_e1(){
 void f11(){
     f11_e1();
 }
+#endif //FISHC_CPP_P11_H

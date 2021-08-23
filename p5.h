@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P5_H
 #define FISHC_CPP_P5_H
 
-#endif //FISHC_CPP_P5_H
 
 #include <iostream>
 
@@ -17,16 +16,16 @@ void f5_e1(){
 
     switch (answer){
         case 'Y':
-        case 'y':
-            std::cout << "随便格式化硬盘是不好的，会被妈妈骂的！" << std::endl;
-            break;
-        case 'N':
-        case 'n':
-            std::cout << "您的选择是明智的！！！" << std::endl;
-            break;
-        default:
-            std::cout << "您的输入不符合要求！！！" << std::endl;
-            break;
+            case 'y':
+                std::cout << "随便格式化硬盘是不好的，会被妈妈骂的！" << std::endl;
+                break;
+                case 'N':
+                    case 'n':
+                        std::cout << "您的选择是明智的！！！" << std::endl;
+                        break;
+                        default:
+                            std::cout << "您的输入不符合要求！！！" << std::endl;
+                            break;
     }
 
     // 忽略100个字符，只要有\n，就忽略
@@ -51,20 +50,20 @@ void f5_e2(){
 
     switch (typeIn){
         case 'C':
-        case 'c':
-            tempOut = tempIn * RATIO + ADD_SUBTRACT;
-            typeOut = 'F';
-            typeIn = 'C';
-            break;
-        case 'F':
-        case 'f':
-            tempOut = (tempIn - ADD_SUBTRACT) / RATIO;
-            typeOut = 'C';
-            typeIn = 'F';
-            break;
-        default:
-            typeOut = 'E';
-            break;
+            case 'c':
+                tempOut = tempIn * RATIO + ADD_SUBTRACT;
+                typeOut = 'F';
+                typeIn = 'C';
+                break;
+                case 'F':
+                    case 'f':
+                        tempOut = (tempIn - ADD_SUBTRACT) / RATIO;
+                        typeOut = 'C';
+                        typeIn = 'F';
+                        break;
+                        default:
+                            typeOut = 'E';
+                            break;
     }
 
     if (typeOut != 'E'){
@@ -76,8 +75,9 @@ void f5_e2(){
 
 
 void f5(int argc, char *argv[]){
-//    f5_e1();
+    //    f5_e1();
 
     f5_e2();
 
 }
+#endif //FISHC_CPP_P5_H

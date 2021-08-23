@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P27_H
 #define FISHC_CPP_P27_H
 
-#endif //FISHC_CPP_P27_H
 
 #include <iostream>
 #include <string>
@@ -26,9 +25,9 @@ public:
         return {n, d};
     };
     Rational_p27 operator - (Rational_p27 rhs){
-//        int n = numerator * rhs.denominator - denominator * rhs.numerator;
-//        int d = denominator * rhs.denominator;
-//        return {n, d};
+        //        int n = numerator * rhs.denominator - denominator * rhs.numerator;
+        //        int d = denominator * rhs.denominator;
+        //        return {n, d};
         rhs.numerator = -rhs.numerator;
         return operator + (rhs);
     };
@@ -119,3 +118,4 @@ void f27_e1(){
 void f27(){
     f27_e1();
 }
+#endif //FISHC_CPP_P27_H

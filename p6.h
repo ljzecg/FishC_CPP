@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P6_H
 #define FISHC_CPP_P6_H
 
-#endif //FISHC_CPP_P6_H
 
 #include <iostream>
 
@@ -24,20 +23,20 @@ void convertTemperature(double tempIn, char typeIn){
 
     switch (typeIn){
         case 'C':
-        case 'c':
-            tempOut = tempIn * RATIO + ADD_SUBTRACT;
-            typeOut = 'F';
-            typeIn = 'C';
-            break;
-        case 'F':
-        case 'f':
-            tempOut = (tempIn - ADD_SUBTRACT) / RATIO;
-            typeOut = 'C';
-            typeIn = 'F';
-            break;
-        default:
-            typeOut = 'E';
-            break;
+            case 'c':
+                tempOut = tempIn * RATIO + ADD_SUBTRACT;
+                typeOut = 'F';
+                typeIn = 'C';
+                break;
+                case 'F':
+                    case 'f':
+                        tempOut = (tempIn - ADD_SUBTRACT) / RATIO;
+                        typeOut = 'C';
+                        typeIn = 'F';
+                        break;
+                        default:
+                            typeOut = 'E';
+                            break;
     }
 
     if (typeOut != 'E'){
@@ -56,20 +55,20 @@ void convertTemperature(int tempIn, char typeIn){
 
     switch (typeIn){
         case 'C':
-        case 'c':
-            tempOut = tempIn * RATIO + ADD_SUBTRACT;
-            typeOut = 'F';
-            typeIn = 'C';
-            break;
-        case 'F':
-        case 'f':
-            tempOut = (tempIn - ADD_SUBTRACT) / RATIO;
-            typeOut = 'C';
-            typeIn = 'F';
-            break;
-        default:
-            typeOut = 'E';
-            break;
+            case 'c':
+                tempOut = tempIn * RATIO + ADD_SUBTRACT;
+                typeOut = 'F';
+                typeIn = 'C';
+                break;
+                case 'F':
+                    case 'f':
+                        tempOut = (tempIn - ADD_SUBTRACT) / RATIO;
+                        typeOut = 'C';
+                        typeIn = 'F';
+                        break;
+                        default:
+                            typeOut = 'E';
+                            break;
     }
 
     if (typeOut != 'E'){
@@ -84,3 +83,4 @@ void f6(){
     convertTemperature(32, 'C');
 
 }
+#endif //FISHC_CPP_P6_H

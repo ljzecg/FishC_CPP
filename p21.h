@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P21_H
 #define FISHC_CPP_P21_H
 
-#endif //FISHC_CPP_P21_H
 
 #include <iostream>
 #include <string>
@@ -37,7 +36,6 @@ void Lovers_p21::kiss(Lovers_p21 *lover) {
 void Lovers_p21::ask(Lovers_p21 *lover, string something) {
     cout << name << " ÈÃ " << lover->name << "È¥×ö " << something << endl;
 }
-
 
 
 
@@ -79,9 +77,6 @@ void Others_p21::kiss(Lovers_p21 *lover) {
 }
 
 
-
-
-
 void f21_e1(){
 
     Boyfriend_p21 b("boy");
@@ -96,7 +91,7 @@ void f21_e1(){
 }
 
 
-
 void f21(){
     f21_e1();
 }
+#endif //FISHC_CPP_P21_H

@@ -5,8 +5,6 @@
 #ifndef FISHC_CPP_P13_H
 #define FISHC_CPP_P13_H
 
-#endif //FISHC_CPP_P13_H
-
 #include <iostream>
 
 using namespace std;
@@ -34,7 +32,7 @@ enum weekdays{
     Wednesday,
     Thursday = 333,
     Friday,
-};
+    };
 
 
 void f13_e2(){
@@ -52,14 +50,11 @@ typedef int * intPointer;
 
 void f13_e3(){
     intPointer a, b;
-
-
 }
-
-
 
 void f13(){
-//    f13_e1();
-//    f13_e2();
+    //    f13_e1();
+    //    f13_e2();
     f13_e3();
 }
+#endif //FISHC_CPP_P13_H

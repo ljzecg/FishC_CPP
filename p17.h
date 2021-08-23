@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P17_H
 #define FISHC_CPP_P17_H
 
-#endif //FISHC_CPP_P17_H
 
 #include <iostream>
 #include <string>
@@ -81,6 +80,7 @@ void f17_e2(){
 
 
 void f17(){
-//    f17_e1();
+    //    f17_e1();
     f17_e2();
 }
+#endif //FISHC_CPP_P17_H

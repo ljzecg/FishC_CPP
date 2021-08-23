@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P15_H
 #define FISHC_CPP_P15_H
 
-#endif //FISHC_CPP_P15_H
 
 #include <iostream>
 #include <string>
@@ -43,3 +42,4 @@ Car::~Car() {
 void f15(){
 
 }
+#endif //FISHC_CPP_P15_H

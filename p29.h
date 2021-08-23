@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P29_H
 #define FISHC_CPP_P29_H
 
-#endif //FISHC_CPP_P29_H
 
 #include <iostream>
 #include <string>
@@ -66,7 +65,7 @@ protected:
 class TeachingStudent_p29: public Student_p29, public Teacher_p29{
 public:
     TeachingStudent_p29(string theName, string classTeaching, string classAttending):
-            Teacher_p29(theName, classTeaching), Student_p29(theName, classAttending)
+    Teacher_p29(theName, classTeaching), Student_p29(theName, classAttending)
     {
 
     };
@@ -97,3 +96,5 @@ void f29_e1(){
 void f29(){
     f29_e1();
 }
+
+#endif //FISHC_CPP_P29_H

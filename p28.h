@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P28_H
 #define FISHC_CPP_P28_H
 
-#endif //FISHC_CPP_P28_H
 
 #include <iostream>
 #include <string>
@@ -111,3 +110,5 @@ void f28_e1(){
 void f28(){
     f28_e1();
 }
+
+#endif //FISHC_CPP_P28_H

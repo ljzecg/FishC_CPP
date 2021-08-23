@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P24_H
 #define FISHC_CPP_P24_H
 
-#endif //FISHC_CPP_P24_H
 
 #include <iostream>
 #include <string>
@@ -138,8 +137,8 @@ void f24_e2(){
 }
 
 
-
 void f24(){
-//    f24_e1();
+    //    f24_e1();
     f24_e2();
 }
+#endif //FISHC_CPP_P24_H

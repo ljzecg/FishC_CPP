@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P20_H
 #define FISHC_CPP_P20_H
 
-#endif //FISHC_CPP_P20_H
 
 #include <iostream>
 #include <string>
@@ -36,7 +35,7 @@ public:
 };
 
 void Pig_p20::eat(){
-//    Animal_p20::eat();
+    //    Animal_p20::eat();
     cout << "pig eating" << endl;
 }
 
@@ -61,12 +60,11 @@ void f20_e1(){
     pig.eat();
     pig.eat(15);
 
-
 }
 
 
 void f20(){
     f20_e1();
 
-
 }
+#endif //FISHC_CPP_P20_H

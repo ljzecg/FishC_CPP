@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P36_H
 #define FISHC_CPP_P36_H
 
-#endif //FISHC_CPP_P36_H
 
 #include <iostream>
 
@@ -86,7 +85,8 @@ void f36_e3(){
 
 
 void f36(){
-//    f36_e1();
-//    f36_e2();
+    //    f36_e1();
+    //    f36_e2();
     f36_e3();
 }
+#endif //FISHC_CPP_P36_H

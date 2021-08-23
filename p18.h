@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P18_H
 #define FISHC_CPP_P18_H
 
-#endif //FISHC_CPP_P18_H
 
 #include <iostream>
 #include <string>
@@ -72,7 +71,6 @@ void Turtle_p18::swim() {
 }
 
 
-
 void f18_e1(){
     Pig_p18 pig("Ð¡Öí");
     Turtle_p18 turtle("Ð¡¼×Óã");
@@ -118,13 +116,14 @@ SubClass_18::~SubClass_18() {
 
 
 void f18_e2(){
-//    BaseClass_18 b;
+    //    BaseClass_18 b;
     SubClass_18 s;
     s.doSomething();
 
 }
 
 void f18(){
-//    f18_e1();
+    //    f18_e1();
     f18_e2();
 }
+#endif //FISHC_CPP_P18_H

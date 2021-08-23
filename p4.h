@@ -5,10 +5,8 @@
 #ifndef FISHC_CPP_P4_H
 #define FISHC_CPP_P4_H
 
-#endif //FISHC_CPP_P4_H
-
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
 #include <fstream>
 
 using namespace std;
@@ -151,14 +149,15 @@ void copyfile_cpp(int argc, char *argv[]){
 
 void f4(int argc, char *argv[]){
 
-//    copyfile_c(argc, argv);
+    //    copyfile_c(argc, argv);
 
-//    p4_example1();
+    //    p4_example1();
 
-//    p4_example2();
+    //    p4_example2();
 
-//    p4_example3();
+    //    p4_example3();
 
     p4_example4();
 
 }
+#endif //FISHC_CPP_P4_H

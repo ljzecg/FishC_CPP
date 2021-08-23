@@ -1,6 +1,3 @@
-#include <iostream>
-
-
 #include "p2.h"
 #include "p3.h"
 #include "p4.h"
@@ -15,7 +12,7 @@
 #include "p13.h"
 #include "p14.h"
 #include "p15.h"
-#include "p16.h"
+
 #include "p17.h"
 #include "p18.h"
 #include "p19.h"
@@ -37,7 +34,15 @@
 #include "p35.h"
 #include "p36.h"
 #include "p37.h"
+#include "p38.h"
+#include "p39.h"
 
+
+#include "p42.h"
+#include "p43.h"
+
+
+#include <iostream>
 
 
 int main(int argc, char *argv[]) {
@@ -49,7 +54,7 @@ int main(int argc, char *argv[]) {
 //    f6();
 //    f7();
 
-////    f9();
+//    f9();
 //    f10();
 //    f11();
 //    f12();
@@ -77,8 +82,17 @@ int main(int argc, char *argv[]) {
 //    f34();
 //    f35();
 //    f36();
-    f37();
+//    f37();
+//    f38();
+//    f39();
 
 
+//    f42();
+    f43();
+
+
+
+
+    std::cout << "Hello World!" << std::endl;
     return 0;
 }

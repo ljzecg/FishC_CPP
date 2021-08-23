@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P14_H
 #define FISHC_CPP_P14_H
 
-#endif //FISHC_CPP_P14_H
 
 #include <iostream>
 #include <string>
@@ -38,11 +37,12 @@ class MyFirstClass{
 
 
 void f14_e1(){
-//    Car car;
-//    car.fill_tank(66.6);
+    //    Car car;
+    //    car.fill_tank(66.6);
 
 }
 
 void f14(){
     f14_e1();
 }
+#endif //FISHC_CPP_P14_H

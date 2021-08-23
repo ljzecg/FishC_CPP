@@ -5,9 +5,6 @@
 #ifndef FISHC_CPP_P9_H
 #define FISHC_CPP_P9_H
 
-#endif //FISHC_CPP_P9_H
-
-
 #include <iostream>
 #include <string>
 
@@ -49,3 +46,5 @@ void f9_e1(){
 void f9(){
     f9_e1();
 }
+
+#endif //FISHC_CPP_P9_H

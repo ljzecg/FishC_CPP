@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P30_H
 #define FISHC_CPP_P30_H
 
-#endif //FISHC_CPP_P30_H
 #include <iostream>
 #include <string>
 
@@ -68,11 +67,11 @@ public:
             string theName,
             string classTeaching,
             string classAttending
-    ):
-    Teacher_p30(theName, classTeaching),
-    Student_p30(theName, classAttending),
-    // 只能再继承一次！！！
-    Person_p30(theName){
+            ):
+            Teacher_p30(theName, classTeaching),
+            Student_p30(theName, classAttending),
+            // 只能再继承一次！！！
+            Person_p30(theName){
 
     };
     void introduce(){
@@ -93,3 +92,5 @@ void f30_e1(){
 void f30(){
     f30_e1();
 }
+
+#endif //FISHC_CPP_P30_H

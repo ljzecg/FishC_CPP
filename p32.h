@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P32_H
 #define FISHC_CPP_P32_H
 
-#endif //FISHC_CPP_P32_H
 
 #include <iostream>
 #include <string>
@@ -84,3 +83,4 @@ void f32(){
     f32_e1();
 
 }
+#endif //FISHC_CPP_P32_H

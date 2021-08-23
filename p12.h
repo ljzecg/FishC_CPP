@@ -5,9 +5,6 @@
 #ifndef FISHC_CPP_P12_H
 #define FISHC_CPP_P12_H
 
-#endif //FISHC_CPP_P12_H
-
-
 #include <iostream>
 #include <string>
 
@@ -28,7 +25,7 @@ void f12_e1(){
     int age = 24;
     cout << "My age is " << age << endl;
 
-//    changeAge(age, age + 1);
+    //    changeAge(age, age + 1);
     changeAge(&age, age + 1);
 
     cout << "Now my age is " << age << endl;
@@ -73,6 +70,8 @@ void f12_e2(){
 
 
 void f12(){
-//    f12_e1();
+    //    f12_e1();
     f12_e2();
 }
+
+#endif //FISHC_CPP_P12_H

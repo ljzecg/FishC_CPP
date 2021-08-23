@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P25_H
 #define FISHC_CPP_P25_H
 
-#endif //FISHC_CPP_P25_H
 
 
 #include <iostream>
@@ -61,7 +60,7 @@ public:
     };
     // 这里如果没有virtual的话，不会执行Derived类中的析构函数
     virtual ~ClxBase_p25(){
-//        cout << "~ClxBase_p25" << endl;
+        //        cout << "~ClxBase_p25" << endl;
     }
     virtual void doSomething(){
         cout << "do someting in class ClxBase_p25" << endl;
@@ -92,6 +91,8 @@ void f25_e2(){
 
 
 void f25(){
-//    f25_e1();
+    //    f25_e1();
     f25_e2();
 }
+
+#endif //FISHC_CPP_P25_H

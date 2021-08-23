@@ -5,7 +5,6 @@
 #ifndef FISHC_CPP_P34_H
 #define FISHC_CPP_P34_H
 
-#endif //FISHC_CPP_P34_H
 
 #include <iostream>
 #include <string>
@@ -38,9 +37,9 @@ using namespace std;
 //}
 
 
-class Company{
+class Company_p34{
 public:
-    Company(string theName){
+    Company_p34(string theName){
         name = theName;
     };
 
@@ -53,9 +52,9 @@ protected:
 };
 
 
-class TechCompany:public Company{
+class TechCompany_p34: public Company_p34{
 public:
-    TechCompany(string theName, string product): Company(theName){
+    TechCompany_p34(string theName, string product): Company_p34(theName){
         this->product = product;
     };
 
@@ -71,13 +70,13 @@ private:
 
 void f34_e2(){
 
-    Company *cmp = new Company("Apple");
+    Company_p34 *cmp = new Company_p34("Apple");
     cmp->printInfo();
 
     delete cmp;
     cmp = nullptr;
 
-    cmp = new TechCompany("Apple", "iPhone");
+    cmp = new TechCompany_p34("Apple", "iPhone");
     cmp->printInfo();
 
     delete cmp;
@@ -87,6 +86,7 @@ void f34_e2(){
 
 
 void f34(){
-//    f34_e1();
+    //    f34_e1();
     f34_e2();
 }
+#endif //FISHC_CPP_P34_H

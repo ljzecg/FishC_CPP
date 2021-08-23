@@ -5,8 +5,6 @@
 #ifndef FISHC_CPP_P3_H
 #define FISHC_CPP_P3_H
 
-#endif //FISHC_CPP_P3_H
-
 #include <iostream>
 
 using namespace std;
@@ -108,11 +106,12 @@ void p3_homework(){
 
 void f3(){
 
-//    f3_c();
-//    f3_cpp();
+    //    f3_c();
+    //    f3_cpp();
 
-//    p3_example1();
-//    p3_example2();
+    //    p3_example1();
+    //    p3_example2();
     p3_example3();
 
 }
+#endif //FISHC_CPP_P3_H
