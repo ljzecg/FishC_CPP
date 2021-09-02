@@ -41,6 +41,12 @@
 #include "p42.h"
 #include "p43.h"
 
+#include "p45.h"
+#include "p46.h"
+#include "p47.h"
+#include "p48.h"
+#include "p49.h"
+
 
 #include <iostream>
 
@@ -88,7 +94,13 @@ int main(int argc, char *argv[]) {
 
 
 //    f42();
-    f43();
+//    f43();
+
+//    f45();
+//    f46();
+//    f47();
+//    f48();
+    f49();
 
 
 

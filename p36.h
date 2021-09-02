@@ -28,7 +28,7 @@ void f36_e1(){
 }
 
 
-void swap(int *x, int *y){
+void swap_p36(int *x, int *y){
 #if 0
     int temp;
     temp = *x;
@@ -45,7 +45,7 @@ void f36_e2(){
     int a, b;
     a = 3, b = 5;
 
-    swap(&a, &b);
+    swap_p36(&a, &b);
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
 
